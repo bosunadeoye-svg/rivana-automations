@@ -20,9 +20,11 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?q=80&w=2000&auto=format&fit=crop" 
+          src="https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?fm=webp&q=60&w=2000&auto=format&fit=crop" 
           alt="Precise clockwork mechanism representing efficiency" 
           className="w-full h-full object-cover"
+          loading="eager"
+          fetchpriority="high"
         />
       </div>
       

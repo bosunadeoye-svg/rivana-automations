@@ -25,8 +25,8 @@ export default function Contact() {
           </div>
           <div className="flex flex-col">
             <span className="font-data text-xs uppercase tracking-widest text-dark/50 mb-1">Email</span>
-            <a href="mailto:bosunadeoye@rivanautomations.com" className="font-heading text-xl font-bold hover:text-accent transition-colors">
-              bosunadeoye@rivanautomations.com
+            <a href="mailto:bosunadeoye@rivanaautomations.com" className="font-heading text-xl font-bold hover:text-accent transition-colors">
+              bosunadeoye@rivanaautomations.com
             </a>
           </div>
         </div>

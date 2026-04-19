@@ -48,7 +48,7 @@ export default function Philosophy() {
         ref={bgRef}
         className="absolute top-[-20%] left-0 w-full h-[140%] z-0 opacity-10 pointer-events-none"
         style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1518005020951-eccb494ad742?q=80&w=2000&auto=format&fit=crop")',
+          backgroundImage: 'url("https://images.unsplash.com/photo-1518005020951-eccb494ad742?fm=webp&q=30&w=1200&auto=format&fit=crop")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           mixBlendMode: 'luminosity'

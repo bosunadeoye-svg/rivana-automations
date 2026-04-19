@@ -63,7 +63,7 @@ export default function Terms() {
 
         <section>
           <h2 className="font-heading font-bold text-2xl uppercase tracking-tight mb-4 text-dark">Contacting us</h2>
-          <p>If you have any questions, concerns, or complaints regarding this Agreement, we encourage you to contact us at: <a href="mailto:bosunadeoye@rivanautomations.com" className="text-accent hover:underline">bosunadeoye@rivanautomations.com</a></p>
+          <p>If you have any questions, concerns, or complaints regarding this Agreement, we encourage you to contact us at: <a href="mailto:bosunadeoye@rivanaautomations.com" className="text-accent hover:underline">bosunadeoye@rivanaautomations.com</a></p>
         </section>
       </div>
     </main>

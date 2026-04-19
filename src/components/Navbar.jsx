@@ -21,7 +21,9 @@ export default function Navbar() {
 
   return (
     <div className="fixed top-6 left-0 right-0 z-40 flex justify-center px-4 w-full">
-      <nav className={`
+      <nav 
+        aria-label="Main Navigation"
+        className={`
         relative overflow-hidden
         px-8 py-4 rounded-[3rem] transition-all duration-500 flex items-center justify-between w-full max-w-5xl
         ${isScrolled || !isHome
@@ -40,6 +42,7 @@ export default function Navbar() {
         </div>
         
         <button 
+          aria-label="Book a discovery call"
           onClick={() => window.open('https://calendly.com/bosunadeoye-rivanaautomations/introduction-call', '_blank', 'noopener,noreferrer')}
           className={`
           relative overflow-hidden rounded-full px-6 py-2.5 font-heading text-sm font-bold tracking-wide uppercase transition-all duration-300 z-10 hover:scale-[1.03] active:scale-[0.98]
